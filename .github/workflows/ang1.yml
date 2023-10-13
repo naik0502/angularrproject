@@ -15,8 +15,6 @@ jobs:
           node-version: 16
       - run: npm install
       - run: npm run build
-      - run: npm test
+      - run: npm test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
         env:
-        - CYPRESS_BASE_URL=http://client:3000
-        - DISPLAY
-        - CI: true
+         CI: true
