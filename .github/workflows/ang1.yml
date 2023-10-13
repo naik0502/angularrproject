@@ -15,5 +15,6 @@ jobs:
           node-version: 16
       - run: npm install
       - run: npm run build
+      - run: test --no-watch --no-progress --browsers=ChromeHeadlessCI
         env:
-         CI: true
+         headless: false
