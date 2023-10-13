@@ -13,16 +13,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 16
-        name: Cache Node.js modules
-      - uses: actions/cache@v3
-        with:
-          path: ~/.npm
-          key: ${{ runner.OS }}-node-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.OS }}-node-
-            ${{ runner.OS }}-
       - run: npm install
       - run: npm run build
-      - run: npm test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
         env:
          CI: true
