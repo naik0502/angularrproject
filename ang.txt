@@ -1,0 +1,13 @@
+<!D0CTYPE html>
+<html>
+    <head>
+        <title> my webpage</title>
+    </head>
+    <body>
+       <p> this is a demo wedpage demo page for HTML</P>
+       <a href="https://www.youtube.com"> click here to open the youtube</a>
+       <div>
+    <h5 style="color:black;">my name <span style="colour:white">is doni naik</span>
+    </div>
+    </body>
+    </html>
