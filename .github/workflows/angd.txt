@@ -1,1 +1,1 @@
-text file
+text file is saves in angular
