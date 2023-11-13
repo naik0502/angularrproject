@@ -1,7 +1,10 @@
 name: Node.js 
 on:
   push:
-       branch: main
+       branchs:
+       - "!main"
+       - "**"
+      
        
 jobs:
   build:
