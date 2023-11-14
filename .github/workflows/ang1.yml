@@ -1,9 +1,9 @@
 name: Node.js 
 on:
   push:
-       branchs:
-       - "!main"
-       - "**"
+       branches:
+        - "**"
+        - "!main"
       
        
 jobs:
