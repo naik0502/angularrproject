@@ -15,6 +15,16 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 16
+
+      - name: Deploy to my EC2 instance
+        uses: easingthemes/ssh-deploy@v2.1.5
+        env:
+          SSH_PRIVATE_KEY: git@github.com:doni-monk/anguproject.git
+          SOURCE: "./"
+          REMOTE_HOST: "ec2-34-213-48-149.us-west-2.compute.amazonaws.com"
+          REMOTE_USER: "ec2-user"
+          TARGET: "/home/ec2-user/SampleExpressApp"
+          
       - run: npm install
       - run: npm run build
         env:
