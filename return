@@ -1,0 +1,229 @@
+[33mcommit ba211833a8cae273f556744acea9d2a34a851436[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31mupstream/main[m[33m, [m[1;31mupstream/HEAD[m[33m)[m
+Merge: 2428510 5fd95d3
+Author: doni-monk <146365770+doni-monk@users.noreply.github.com>
+Date:   Fri Nov 17 10:38:50 2023 +0530
+
+    Merge pull request #19 from doni-monk/dev1
+    
+    cool
+
+[33mcommit 5fd95d3f245dd1d4802771172068ffaa1cd6a190[m
+Author: doni-monk <146365770+doni-monk@users.noreply.github.com>
+Date:   Fri Nov 17 10:36:07 2023 +0530
+
+    Delete .github/workflows/ec2.yml
+
+[33mcommit 24285107843d28438e974a1e702c002fb46f6a76[m
+Author: doni-monk <146365770+doni-monk@users.noreply.github.com>
+Date:   Fri Nov 17 10:35:39 2023 +0530
+
+    Delete .github/workflows/ec2.yml
+
+[33mcommit efe287ff0aec639a8814bf51be75a8c7463841cf[m[33m ([m[1;31mupstream/dev1[m[33m, [m[1;32mdev1[m[33m)[m
+Author: doni-monk <nanavath_doni@maplemonk.com>
+Date:   Fri Nov 17 10:31:05 2023 +0530
+
+    sap
+
+[33mcommit 4947150c942fd0fb83e895a875db4633885498b7[m
+Author: doni-monk <nanavath_doni@maplemonk.com>
+Date:   Fri Nov 17 10:28:13 2023 +0530
+
+    soap
+
+[33mcommit a334756045aeda5229b7038fc10328360ef2fe70[m
+Author: doni-monk <nanavath_doni@maplemonk.com>
+Date:   Wed Nov 15 12:29:35 2023 +0530
+
+    cool
+
+[33mcommit 01c56830e97794ccbc480baf22b14d75aaa7f9c5[m
+Merge: 9d0082b 2dcdc7d
+Author: doni-monk <146365770+doni-monk@users.noreply.github.com>
+Date:   Wed Nov 15 12:23:02 2023 +0530
+
+    Merge pull request #18 from doni-monk/dev1
+    
+    cool
+
+[33mcommit 2dcdc7d7e1733fe831f787bdd650fec38a676123[m
+Author: doni-monk <nanavath_doni@maplemonk.com>
+Date:   Wed Nov 15 12:20:49 2023 +0530
+
+    cool
+
+[33mcommit 1dcb0740055a797dbc0ad90dad906cd353d80b1d[m
+Author: doni-monk <nanavath_doni@maplemonk.com>
+Date:   Wed Nov 15 12:16:56 2023 +0530
+
+    cool
+
+[33mcommit 8fb528cc053efcbee37142d5d896f9a734ea5c88[m
+Author: doni-monk <nanavath_doni@maplemonk.com>
+Date:   Wed Nov 15 11:56:31 2023 +0530
+
+    cool
+
+[33mcommit 47c03a89b9c37debdcfed9f93731897921481c8a[m
+Author: doni-monk <nanavath_doni@maplemonk.com>
+Date:   Wed Nov 15 11:39:57 2023 +0530
+
+    cool
+
+[33mcommit 9d0082bc763ecc498962e5883fdf60f0d90cda2f[m
+Merge: 484443e e284d37
+Author: doni-monk <146365770+doni-monk@users.noreply.github.com>
+Date:   Tue Nov 14 16:51:32 2023 +0530
+
+    Merge pull request #17 from doni-monk/dev1
+    
+    aws
+
+[33mcommit e284d37dd16133bde3ce1fe759e4c5c62ae0fac9[m
+Author: doni-monk <nanavath_doni@maplemonk.com>
+Date:   Tue Nov 14 16:18:14 2023 +0530
+
+    aws
+
+[33mcommit 2ddde927130b5bf6adf04463346269359cdb77a0[m
+Author: doni-monk <nanavath_doni@maplemonk.com>
+Date:   Tue Nov 14 16:14:19 2023 +0530
+
+    aws
+
+[33mcommit 484443ecf40b4169383c0c87220e05dc53ec8195[m
+Merge: ab911d0 450594e
+Author: doni-monk <146365770+doni-monk@users.noreply.github.com>
+Date:   Tue Nov 14 14:36:23 2023 +0530
+
+    Merge pull request #16 from doni-monk/dev1
+    
+    hgf
+
+[33mcommit 450594e10023ce203f161072bde28f68e090ab5e[m
+Author: doni-monk <nanavath_doni@maplemonk.com>
+Date:   Tue Nov 14 14:35:30 2023 +0530
+
+    hgf
+
+[33mcommit ab911d04a60df7fef03cfae32ca1bfcc57126a84[m
+Merge: 54238f9 1c790c5
+Author: doni-monk <146365770+doni-monk@users.noreply.github.com>
+Date:   Tue Nov 14 14:33:40 2023 +0530
+
+    Merge pull request #15 from doni-monk/dev1
+    
+    hgf
+
+[33mcommit 1c790c5dd5290e353eed31c5472719ad3e50b2c0[m
+Author: doni-monk <nanavath_doni@maplemonk.com>
+Date:   Tue Nov 14 14:31:55 2023 +0530
+
+    hgf
+
+[33mcommit 54238f9e8221b2bfa01f8f4d4fa6786e61765714[m
+Merge: c518f5b 8956965
+Author: doni-monk <146365770+doni-monk@users.noreply.github.com>
+Date:   Tue Nov 14 14:29:03 2023 +0530
+
+    Merge pull request #14 from doni-monk/dev1
+    
+    Dev1
+
+[33mcommit 8956965c026a9965808cb907b43bc5b437ccd85c[m
+Author: doni-monk <nanavath_doni@maplemonk.com>
+Date:   Tue Nov 14 14:28:02 2023 +0530
+
+    hgf
+
+[33mcommit d5ca9aa26fd0c15873633d276da48f28d0de04de[m
+Author: doni-monk <nanavath_doni@maplemonk.com>
+Date:   Tue Nov 14 14:14:43 2023 +0530
+
+    hgf
+
+[33mcommit c518f5b4300211af9bdcbe4803d6ab4d24423632[m
+Merge: 530d9e0 5b12455
+Author: doni-monk <146365770+doni-monk@users.noreply.github.com>
+Date:   Tue Nov 14 14:02:33 2023 +0530
+
+    Merge pull request #13 from doni-monk/dev1
+    
+    hgf
+
+[33mcommit 5b124557d74ad8adb941198830c705afb89066f0[m
+Author: doni-monk <nanavath_doni@maplemonk.com>
+Date:   Tue Nov 14 14:01:00 2023 +0530
+
+    hgf
+
+[33mcommit 530d9e014a5fee2d4dc75a3157c266350e0c3593[m
+Merge: 0aff43e 78b1a7c
+Author: doni-monk <146365770+doni-monk@users.noreply.github.com>
+Date:   Tue Nov 14 13:58:10 2023 +0530
+
+    Merge pull request #12 from doni-monk/dev1
+    
+    bam
+
+[33mcommit 78b1a7c8ccabb6f7dd368af312e4d415b29a3f1e[m
+Merge: bfd9ff3 769ce01
+Author: doni-monk <nanavath_doni@maplemonk.com>
+Date:   Tue Nov 14 13:50:40 2023 +0530
+
+    Merge branch 'dev1' of https://github.com/doni-monk/anguproject into dev1
+
+[33mcommit bfd9ff3bb21b5922fe9005c88178d44e06c18603[m
+Author: doni-monk <nanavath_doni@maplemonk.com>
+Date:   Tue Nov 14 13:46:30 2023 +0530
+
+    hgf
+
+[33mcommit 0aff43e738c7f0415d0a64099ff9b00ca56004f6[m
+Merge: cec599d 769ce01
+Author: doni-monk <146365770+doni-monk@users.noreply.github.com>
+Date:   Tue Nov 14 13:39:36 2023 +0530
+
+    Merge pull request #11 from doni-monk/dev1
+    
+    sam
+
+[33mcommit 769ce01b7b530ea82c858efa4b3ddf059528693e[m
+Merge: 4a73b7a cec599d
+Author: doni-monk <146365770+doni-monk@users.noreply.github.com>
+Date:   Tue Nov 14 13:39:08 2023 +0530
+
+    Merge branch 'main' into dev1
+
+[33mcommit 4a73b7a8de95521198e3c2a39ca54fb2ef060870[m
+Author: doni-monk <nanavath_doni@maplemonk.com>
+Date:   Tue Nov 14 13:36:57 2023 +0530
+
+    hgf
+
+[33mcommit dfcbae9d21680fdaf917d84c767025394a27d833[m
+Author: doni-monk <nanavath_doni@maplemonk.com>
+Date:   Tue Nov 14 13:34:52 2023 +0530
+
+    hgf
+
+[33mcommit 8aa4e4ce2ceb498f338b00f95a2f3008cade9c48[m
+Author: doni-monk <nanavath_doni@maplemonk.com>
+Date:   Tue Nov 14 13:32:37 2023 +0530
+
+    fog
+
+[33mcommit e761e10efacabbe8ce720049c3bee7b85d338513[m
+Author: doni-monk <nanavath_doni@maplemonk.com>
+Date:   Tue Nov 14 13:25:21 2023 +0530
+
+    bat
+
+[33mcommit cec599d48dab0888a99f2f80d1c46fbacf184c8e[m
+Merge: be13bf9 64e2161
+Author: doni-monk <146365770+doni-monk@users.noreply.github.com>
+Date:   Tue Nov 14 11:40:42 2023 +0530
+
+    Merge pull request #10 from doni-monk/dev1
+    
+    Dev1
