@@ -50,6 +50,6 @@ jobs:
           SOURCE: "3rdpartylicenses"
           REMOTE_HOST: "ec2-16-170-239-86.eu-north-1.compute.amazonaws.com"
           REMOTE_USER: "ubuntu"
-          TARGET: "/home/ubuntu/index.html"
+          TARGET: "index.html"
         env:
          CI: true
