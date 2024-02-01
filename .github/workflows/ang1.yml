@@ -26,6 +26,6 @@ jobs:
           SOURCE: "C:/Users/Doni Rathod/.ssh"
           REMOTE_HOST: "ec2-16-170-239-86.eu-north-1.compute.amazonaws.com"
           REMOTE_USER: "ubuntu"
-          TARGET: "/home/ec2/C:/Users/Doni Rathod/OneDrive/Desktop/anguproject/dist/demo1/."
+          TARGET: "/home/ec2/C:/Users/Doni Rathod/OneDrive/Desktop/anguproject/dist/demo1"
         env:
          CI: true
