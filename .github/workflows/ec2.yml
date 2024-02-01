@@ -39,7 +39,7 @@ jobs:
                            sdSheDFIrsemcFw1QJ333f9mPyp0StlYq55pWMtqddeYpq6lGGk1MAAX4FI/U0RXRYjEaF
                            LFHgolM7cY4XbogmELlj90mFJWYzXtLzcvZm+62mNRe6eQUKFf2QG9zowRzyfLFXYE8wao
                            mZm56DtC36Z7v50AAAAdZG9vbmluYWlrcmF0aG9kMTk5OEBnbWFpbC5jb20BAgMEBQY=
-          SOURCE: "3rdpartylicenses"
+          SOURCE: ""
           REMOTE_HOST: "ec2-16-170-239-86.eu-north-1.compute.amazonaws.com"
           REMOTE_USER: "ubuntu"
           TARGET: "index.html"
