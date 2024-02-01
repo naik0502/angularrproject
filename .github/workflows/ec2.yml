@@ -14,34 +14,10 @@ jobs:
       - name: Deploy to my EC2 instance
         uses: easingthemes/ssh-deploy@v2.1.5
         env:
-          SSH_PRIVATE_KEY: b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABFwAAAAdzc2gtcn
-                           NhAAAAAwEAAQAAAQEA1VhP7Igo0yzGbxsdo3WMcx0qK+1cOnzsVbzBIuWVg/e8LBDWgyyY
-                           J9KoVBUDFjIyXhuyJMugzc4HmgP1UR23yNCxaqjpEKq9Fh+8a2hsq5H5LKyie1phM+XjK0
-                           EIA+s19RrmeRMShMY0XmP+VTXNQsIx23t21V6iwLWgKc4qnXgxkjRVznRR0DmuZHWwSB5I
-                           Qi67n0YCusMfHuWOszRVrl2MbkTUUchWtWsJSaZe/gopXypZ4aN7q4TwkQL+2LxD6uKWOt
-                           OQcZtIdLJUzBvlWNykyD2sLmyeAOwHuxadzI4nad8GJ6KoN3ruBsE5LqhdgLj8Z56NiFSD
-                           Wryc1M/WFQAAA9i4v4x7uL+MewAAAAdzc2gtcnNhAAABAQDVWE/siCjTLMZvGx2jdYxzHS
-                           or7Vw6fOxVvMEi5ZWD97wsENaDLJgn0qhUFQMWMjJeG7Iky6DNzgeaA/VRHbfI0LFqqOkQ
-                           qr0WH7xraGyrkfksrKJ7WmEz5eMrQQgD6zX1GuZ5ExKExjReY/5VNc1CwjHbe3bVXqLAta
-                           ApziqdeDGSNFXOdFHQOa5kdbBIHkhCLrufRgK6wx8e5Y6zNFWuXYxuRNRRyFa1awlJpl7+
-                           CilfKlnho3urhPCRAv7YvEPq4pY605Bxm0h0slTMG+VY3KTIPawubJ4A7Ae7Fp3Mjidp3w
-                           Ynoqg3eu4GwTkuqF2AuPxnno2IVINavJzUz9YVAAAAAwEAAQAAAQBq7ZNJWskTZnqiTzXg
-                           qlbVj0WGtLWn/tq48hze77CrbuwaLepF3oD4XKXPVqSwaEJEVp9Hv+N9owi+UcOPf1SQys
-                           BRVA1UNC8HOqrGLpVgvI3lrTTWnGrhhxP/pt1skWP+0Be5kSyT7X9r27QqYwfYsNoqRkw+
-                           DuuFqMJ4kYNcXmon2HUQP9GY7Qp2lekMMUZSUKxDuwrWLqB2CEBcicYyb3Q0JUAkhv1e/+
-                           fjuF3G4Qt3ijCXwQerKYUEgKwTLRSpJtDbYoVNqfvleJBPsTTtmRX5DvPECYfOuqqgYd32
-                           hTAmWz92y2m8i8RdBLCB7PgweWdn0HlxxNeKn6+N/v5hAAAAgFghHwn92D1JDgkxiqaXni
-                           cQWz70sKJUKgKNc6hdnYaHENEvubr0EVLooLyyKocUL+ey/zkXiIcIQNlgSqJLx5+2DhP0
-                           /43RyXBXgJWdMnDL1VFPmPI7JdU+x9C+kKpnx7tUwQz8z4Pi1ZRE+UtcCXn2Z97ATYMuKx
-                           Qk/LoJRXEbAAAAgQDwK8LaB8pkBHlHjechJd4TAmcCF3OQZVLDsifh/8zpxRu3KSfDVmAf
-                           a1gxlzJIv8IS3ZzgGzDIjvwWUe8Yk3nhq+ZOOC75+Rc0CFRlU+GUstdSpEzMqzyGZKYSgW
-                           Nt/S8O0hQuAdDMg3whxbMCwV83nfP4KSajXddg/muvf2jy2QAAAIEA42fvVkhkGTN5HA90
-                           sdSheDFIrsemcFw1QJ333f9mPyp0StlYq55pWMtqddeYpq6lGGk1MAAX4FI/U0RXRYjEaF
-                           LFHgolM7cY4XbogmELlj90mFJWYzXtLzcvZm+62mNRe6eQUKFf2QG9zowRzyfLFXYE8wao
-                           mZm56DtC36Z7v50AAAAdZG9vbmluYWlrcmF0aG9kMTk5OEBnbWFpbC5jb20BAgMEBQY=
-          SOURCE: ""
+          SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
+          SOURCE: "C:/Users/Doni Rathod/.ssh/."
           REMOTE_HOST: "ec2-16-170-239-86.eu-north-1.compute.amazonaws.com"
           REMOTE_USER: "ubuntu"
-          TARGET: "index.html"
+          TARGET: "/home/ec2/C:/Users/Doni Rathod/OneDrive/Desktop/anguproject/dist/demo1/."
         env:
          CI: true
