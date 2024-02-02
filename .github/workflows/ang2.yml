@@ -1,6 +1,6 @@
 name: Node.js 
 on:
-  pull_request:
+   pull_request:
     - branches:
     - main
     types: [closed]
