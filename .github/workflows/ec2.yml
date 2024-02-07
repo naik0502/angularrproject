@@ -2,7 +2,7 @@ name: Build and Deploy Angular to EC2
 
 on:
   push:
-    branches: [main]
+    branches: [dev1]
 
 jobs:
   build-and-deploy:
@@ -28,5 +28,5 @@ jobs:
           ssh-private-key: ${{ secrets.API_SECRET }}
           host: ${{ secrets.EC2_HOST }}
           username: ${{ secrets.EC2_USERNAME }}
-          target: C:/Users/Doni Rathod/.ssh . # Replace with your deployment path
-          source: /home/ubuntu/C:/Users/Doni Rathod/OneDrive/Desktop/anguproject/dist/demo1 .  # Assuming your build output is in the "dist" folder
+          target: C:/Users/Doni Rathod/.ssh .
+          source: /home/ubuntu/C:/Users/Doni Rathod/OneDrive/Desktop/anguproject/dist/demo1 .
