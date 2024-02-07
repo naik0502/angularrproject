@@ -2,7 +2,7 @@ name: Build and Deploy Angular to EC2
 
 on:
   push:
-    branch: [main]
+    branch: [ main ]
 
 jobs:
   build-and-deploy:
@@ -25,8 +25,8 @@ jobs:
       - name: Deploy to EC2
         uses: easingthemes/ssh-deploy@v2.1.5
         with:
-          ssh-private-key: ${{ secrets.API_SECRET }}
-          host: ${{ secrets. }}
-          username: ${{ secrets.EC2_USERNAME }}
-          target: C:/Users/Doni Rathod/.ssh .
-          source: /home/ubuntu/C:/Users/Doni Rathod/OneDrive/Desktop/anguproject/dist/demo1 .
+        SSH_PRIVATE_KEY: ${{ secrets.API_SECRET }}
+        REMOTE_HOST: "ubuntu"
+        REMOTE_USER: "naik0502"
+        TARGET: /ssh .
+        SOURCE: /home/runner/work/angularrproject/angularrproject/.git/dist .
