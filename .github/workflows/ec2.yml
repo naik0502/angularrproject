@@ -1,20 +1,32 @@
-name: EC2
+name: Build and Deploy Angular to EC2
 
-on: push
+on:
+  push:
+    branches: [main]
 
 jobs:
-  deploy:
-    name: Push to EC2 Instance
+  build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout the code
-        uses: actions/checkout@v2
-      - name: Deploy to my EC2 instance
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16  # Adjust if needed
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Angular app
+        run: npm run build
+
+      - name: Deploy to EC2
         uses: easingthemes/ssh-deploy@v2.1.5
-        env:
-        SSH PRIVATE KEY: ${{ secrets.API_SECRET }}
-        SOURCE: "C:/Users/Doni Rathod/.ssh ."
-        REMOTE_HOST: "ec2-16-170-239-86.eu-north-1.compute.amazonaws.com"
-        REMOTE_USER: "ubuntu"
-        TARGET: "/home/ec2/C:/Users/Doni Rathod/OneDrive/Desktop/anguproject/dist/demo1 ."
-        CI: true
+        with:
+          ssh-private-key: ${{ secrets.API_SECRET }}
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USERNAME }}
+          target: C:/Users/Doni Rathod/.ssh . # Replace with your deployment path
+          source: /home/ubuntu/C:/Users/Doni Rathod/OneDrive/Desktop/anguproject/dist/demo1 .  # Assuming your build output is in the "dist" folder
