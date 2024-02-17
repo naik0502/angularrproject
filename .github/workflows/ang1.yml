@@ -14,7 +14,6 @@ jobs:
         name: use node.js ${{ matrix.node-version }}
       - uses: actions/setup-node@v1
         with:
-          node-version: 16
-
+        node-version: 16
         env:
          CI: true
