@@ -15,17 +15,6 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 16
-      
-      - run: npm install
-      - run: npm run build
-          
-      - name: Deploy to my EC2 instance
-        uses: easingthemes/ssh-deploy@v2.1.5
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
-          SOURCE: "C:/Users/Doni Rathod/.ssh"
-          REMOTE_HOST: "ec2-16-170-239-86.eu-north-1.compute.amazonaws.com"
-          REMOTE_USER: "ubuntu"
-          TARGET: "/home/ec2/C:/Users/Doni Rathod/OneDrive/Desktop/anguproject/dist/demo1"
+
         env:
          CI: true

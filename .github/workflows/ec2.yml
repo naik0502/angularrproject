@@ -1,29 +1,32 @@
-name: EC2
+name: Build and Deploy Angular to EC2
 
-on: push
+on:
+  push:
+    branch: [ main ]
 
 jobs:
-  deploy:
-    name: Push to EC2 Instance
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout the code
-        uses: actions/checkout@v1
+      - uses: actions/checkout@v3
 
-      - name: Deploy to my EC2 instance
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16  # Adjust if needed
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Angular app
+        run: npm run build
+      - name: hjnkjnk
+        run: echo $pwd
+      - name: Deploy to EC2
         uses: easingthemes/ssh-deploy@v2.1.5
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
-          SOURCE: "C:/Users/Doni Rathod/.ssh ."
-          REMOTE_HOST: "ec2-16-170-239-86.eu-north-1.compute.amazonaws.com"
-          REMOTE_USER: "ubuntu"
-          TARGET: "/home/ec2/C:/Users/Doni Rathod/OneDrive/Desktop/anguproject/dist/demo1 ."
-        env:
-             CI: true
-         
-          SSH_PRIVATE_KEY: git@github.com:doni-monk/anguproject.git
-          SOURCE: "./"
-          REMOTE_HOST: "ec2-34-213-48-149.us-west-2.compute.amazonaws.com"
-          REMOTE_USER: "ec2-user"
-          TARGET: "/home/ec2-user/SampleExpressApp"
+        SSH_PRIVATE_KEY: ${{ secrets.API_SECRET }}
+        REMOTE_HOST: "ec2-16-170-239-86.eu-north-1.compute.amazonaws.com"
+        REMOTE_USER: "ubuntu"
+        TARGET: /home/ubuntu/newkey
+        SOURCE: /home/runner/work/angularrproject/angularrproject
